@@ -1,0 +1,9 @@
+inputStr = 'a1' 
+value="abcdefgh"
+a=value.find(inputStr[0])
+if ((int(a)+1)%2!=0 and int(inputStr[1])%2==0):
+   print("White")
+elif (int(a)+1)%2==0 and int(inputStr[1])%2!=0:
+   print("White")
+else:
+   print("Black")
